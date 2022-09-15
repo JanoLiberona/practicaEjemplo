@@ -4,9 +4,17 @@
         <servlet-name>Proceso</servlet-name>
         <servlet-class>Controlador.Proceso</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Volver</servlet-name>
+        <servlet-class>Controlador.Volver</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Proceso</servlet-name>
         <url-pattern>/Proceso</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Volver</servlet-name>
+        <url-pattern>/Volver</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
